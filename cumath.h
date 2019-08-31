@@ -4,6 +4,10 @@
 extern "C" {
 #endif
 
+extern const double pi;
+
+double cudegrees(double);
+double curadians(double);
 double cusin(double);
 double cusinh(double);
 double cusqrt(double);
