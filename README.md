@@ -1,9 +1,6 @@
 # cumath
 
-Implement python's standard math library by cuda. One can get all fuctions from 
-
-- [src](https://github.com/gaoxinge/cpython/blob/master/Modules/mathmodule.c#L3309-L3361)
-- [doc](https://docs.python.org/3/library/math.html)
+Reimplement python's standard math library by cuda. One can get all apis from [doc](https://docs.python.org/3/library/math.html) and the official implementation from [mathmodule.c](https://github.com/gaoxinge/cpython/blob/master/Modules/mathmodule.c)
 
 ## TODO
 
