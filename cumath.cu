@@ -43,8 +43,23 @@
 
 /* constants */
 const double cupi = 3.141592653589793238462643383279502884197;
+const double cue  = 2.718281828459045235360287471352662497757;
 
 /* power and logarithmic function */
+DEVICE_WRAPPER_ARG1(exp);
+HOST_WRAPPER_ARG1(exp);
+DEVICE_WRAPPER_ARG1(expm1);
+HOST_WRAPPER_ARG1(expm1);
+__global__ void cuda_log(double *x, double *y, double *z) {*z = log(*x) / log(*y);}
+HOST_WRAPPER_ARG2(log);
+DEVICE_WRAPPER_ARG1(log1p);
+HOST_WRAPPER_ARG1(log1p);
+DEVICE_WRAPPER_ARG1(log2);
+HOST_WRAPPER_ARG1(log2);
+DEVICE_WRAPPER_ARG1(log10);
+HOST_WRAPPER_ARG1(log10);
+DEVICE_WRAPPER_ARG2(pow);
+HOST_WRAPPER_ARG2(pow);
 DEVICE_WRAPPER_ARG1(sqrt);
 HOST_WRAPPER_ARG1(sqrt);
 

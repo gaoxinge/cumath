@@ -6,15 +6,16 @@ extern "C" {
 
 /* constants */
 extern const double cupi;
+extern const double cue;
 
 /* power and logarithmic function */
-// double cuexp(double);
-// double cuexpm1(double);
-// double culog(double, double);
-// double culog1p(double);
-// double culog2(double);
-// double culog10(double);
-// double cupow(double);
+double cuexp(double);
+double cuexpm1(double);
+double culog(double, double);
+double culog1p(double);
+double culog2(double);
+double culog10(double);
+double cupow(double, double);
 double cusqrt(double);
 
 /* trigonometric function */
