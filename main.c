@@ -17,7 +17,7 @@ int main() {
     printf("cusqrt(4.0) = %f\n", cusqrt(4.0));
     
     /* trigonometric function */
-    printf("cudegrees(cuacso(0.5)) = %f\n", cudegrees(cuacos(0.5)));
+    printf("cudegrees(cuacos(0.5)) = %f\n", cudegrees(cuacos(0.5)));
     printf("cudegrees(cuasin(0.5)) = %f\n", cudegrees(cuasin(0.5)));
     printf("cudegrees(cuatan(1.0)) = %f\n", cudegrees(cuatan(1.0)));
     printf("cudegrees(cuatan2(1.0, 1.0)) = %f\n", cudegrees(cuatan2(1.0, 1.0)));
